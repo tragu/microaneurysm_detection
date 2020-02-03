@@ -34,6 +34,5 @@ def extract_ma(image):
 
 if __name__ == "__main__":
     fundus = cv2.imread("22.jpg")
-    bloodvessel = extract_ma(fundus)
-    
+    bloodvessel = extract_ma(fundus)       #just added to make sure git works
     cv2.imwrite("22_MA.png",bloodvessel)
